@@ -62,8 +62,8 @@ format = '[[ $symbol ($version) ](fg:#FEECDF bg:#B24E40)]($style)'
 [python]
 symbol = ""
 style = "bg:#B24E40"
-format = '[[ $symbol ($version) ](fg:#FEECDF bg:#B24E40)]($style)'
-pyenv_version_name = true
+format = '[[ $symbol ($virtualenv) ($version) ](fg:#FEECDF bg:#B24E40)]($style)'
+pyenv_version_name = false
 
 [time]
 disabled = false
