@@ -1,0 +1,7 @@
+place in $HOME:
+    .zshrc
+    hyperland.txt
+    waybar.txt
+
+place in $HOME/.config:
+    starship.toml

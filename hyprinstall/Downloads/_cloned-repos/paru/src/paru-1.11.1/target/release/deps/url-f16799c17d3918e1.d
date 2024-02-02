@@ -1,0 +1,13 @@
+/home/ntsu/Downloads/hyprinstall/Downloads/_cloned-repos/paru/src/paru-1.11.1/target/release/deps/url-f16799c17d3918e1.rmeta: /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs
+
+/home/ntsu/Downloads/hyprinstall/Downloads/_cloned-repos/paru/src/paru-1.11.1/target/release/deps/liburl-f16799c17d3918e1.rlib: /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs
+
+/home/ntsu/Downloads/hyprinstall/Downloads/_cloned-repos/paru/src/paru-1.11.1/target/release/deps/url-f16799c17d3918e1.d: /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs
+
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs:

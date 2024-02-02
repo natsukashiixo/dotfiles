@@ -1,0 +1,12 @@
+/home/ntsu/Downloads/hyprinstall/Downloads/_cloned-repos/paru/src/paru-1.11.1/target/release/deps/rand_core-1914ed6c69367c7f.rmeta: /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/lib.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/error.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/block.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/impls.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/le.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/os.rs
+
+/home/ntsu/Downloads/hyprinstall/Downloads/_cloned-repos/paru/src/paru-1.11.1/target/release/deps/librand_core-1914ed6c69367c7f.rlib: /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/lib.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/error.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/block.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/impls.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/le.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/os.rs
+
+/home/ntsu/Downloads/hyprinstall/Downloads/_cloned-repos/paru/src/paru-1.11.1/target/release/deps/rand_core-1914ed6c69367c7f.d: /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/lib.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/error.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/block.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/impls.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/le.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/os.rs
+
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/lib.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/error.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/block.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/impls.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/le.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_core-0.5.1/src/os.rs:

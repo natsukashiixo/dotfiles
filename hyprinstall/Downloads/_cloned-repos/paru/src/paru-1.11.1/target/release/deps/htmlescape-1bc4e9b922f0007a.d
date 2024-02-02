@@ -1,0 +1,11 @@
+/home/ntsu/Downloads/hyprinstall/Downloads/_cloned-repos/paru/src/paru-1.11.1/target/release/deps/htmlescape-1bc4e9b922f0007a.rmeta: /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/lib.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/encode.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/decode.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/entities.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/io_support.rs
+
+/home/ntsu/Downloads/hyprinstall/Downloads/_cloned-repos/paru/src/paru-1.11.1/target/release/deps/libhtmlescape-1bc4e9b922f0007a.rlib: /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/lib.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/encode.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/decode.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/entities.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/io_support.rs
+
+/home/ntsu/Downloads/hyprinstall/Downloads/_cloned-repos/paru/src/paru-1.11.1/target/release/deps/htmlescape-1bc4e9b922f0007a.d: /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/lib.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/encode.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/decode.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/entities.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/io_support.rs
+
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/lib.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/encode.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/decode.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/entities.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/htmlescape-0.3.1/src/io_support.rs:

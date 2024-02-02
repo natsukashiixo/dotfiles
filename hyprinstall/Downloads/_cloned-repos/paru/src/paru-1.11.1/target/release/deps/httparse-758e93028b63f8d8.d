@@ -1,0 +1,12 @@
+/home/ntsu/Downloads/hyprinstall/Downloads/_cloned-repos/paru/src/paru-1.11.1/target/release/deps/httparse-758e93028b63f8d8.rmeta: /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/lib.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/iter.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/macros.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/simd/mod.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/simd/sse42.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/simd/avx2.rs
+
+/home/ntsu/Downloads/hyprinstall/Downloads/_cloned-repos/paru/src/paru-1.11.1/target/release/deps/libhttparse-758e93028b63f8d8.rlib: /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/lib.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/iter.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/macros.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/simd/mod.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/simd/sse42.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/simd/avx2.rs
+
+/home/ntsu/Downloads/hyprinstall/Downloads/_cloned-repos/paru/src/paru-1.11.1/target/release/deps/httparse-758e93028b63f8d8.d: /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/lib.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/iter.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/macros.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/simd/mod.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/simd/sse42.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/simd/avx2.rs
+
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/lib.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/iter.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/macros.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/simd/mod.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/simd/sse42.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.1/src/simd/avx2.rs:

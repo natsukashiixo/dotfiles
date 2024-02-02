@@ -1,0 +1,12 @@
+/home/ntsu/Downloads/hyprinstall/Downloads/_cloned-repos/paru/src/paru-1.11.1/target/release/deps/libthiserror_impl-79bb84e3abf5924b.so: /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/lib.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/ast.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/attr.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/expand.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/fmt.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/generics.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/prop.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/valid.rs
+
+/home/ntsu/Downloads/hyprinstall/Downloads/_cloned-repos/paru/src/paru-1.11.1/target/release/deps/thiserror_impl-79bb84e3abf5924b.d: /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/lib.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/ast.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/attr.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/expand.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/fmt.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/generics.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/prop.rs /home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/valid.rs
+
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/lib.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/ast.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/attr.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/expand.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/fmt.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/generics.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/prop.rs:
+/home/ntsu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.31/src/valid.rs:
