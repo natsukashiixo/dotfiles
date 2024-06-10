@@ -1,7 +1,11 @@
 place in $HOME:
     .zshrc
-    hyperland.txt
-    waybar.txt
+    .scripts (probably)
 
 place in $HOME/.config:
     starship.toml
+    hypr 
+    rofi 
+    waybar 
+    wezterm 
+    wpaperd
