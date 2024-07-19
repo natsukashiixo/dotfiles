@@ -1,0 +1,9 @@
+[HDMI-A-1]
+path = "/home/ntsu/wallpapers/vert"
+mode = "stretch"
+
+[DP-3]
+path = "/home/ntsu/wallpapers/horiz"
+duration = "10m"
+sorting = "random"
+mode = "stretch"
