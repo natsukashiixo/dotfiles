@@ -1,0 +1,27 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sdd2
+UUID=9ec28f4b-3035-4581-a290-f78901b525bd	/         	ext4      	rw,relatime	0 1
+
+# /dev/sdd1
+UUID=0ECB-5027      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# UUID=987A2F097A2EE3AA LABEL=Storage
+/dev/sda2           	/mnt/hdd1 	ntfs3     	nofail,x-systemd.device-timeout=5,rw,relatime,uid=1000,gid=1000,iocharset=utf8	0 0
+
+# UUID=4E6ADC276ADC0E19 LABEL=WD\134x20Blue
+/dev/sdb1           	/mnt/hdd2 	ntfs3     	nofail,x-systemd.device-timeout=5,rw,relatime,uid=1000,gid=1000,iocharset=utf8	0 0
+
+# UUID=1478AA0178A9E22A LABEL=WD\134x20Green
+/dev/sdc1           	/mnt/hdd3 	ntfs3     	nofail,x-systemd.device-timeout=5,rw,relatime,uid=1000,gid=1000,iocharset=utf8	0 0
+
+# UUID=4250CE8D50CE875F
+/dev/nvme0n1p4      	/mnt/ssdwin	ntfs3     	nofail,x-systemd.device-timeout=5,rw,relatime,uid=1000,gid=1000,iocharset=utf8	0 0
+
+# UUID=2084222884220140 LABEL=WD\134x20Black
+/dev/nvme1n1p2      	/mnt/ssdgame	ntfs3     	nofail,x-systemd.device-timeout=5,rw,relatime,uid=1000,gid=1000,iocharset=utf8	0 0
+
+# SMB-share test entry
+//192.168.0.199/share    /mnt/ntsuNAS  cifs  x-systemd.automount,guest,rw,nosetuids,iocharset=utf8  0 0
