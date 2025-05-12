@@ -105,18 +105,31 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls='lsd' #sry for shadowing
 
 #start Starship
 eval "$(starship init zsh)"
 
+#personal aliases
+alias ls='lsd'
+alias lsa='lsd -a'
 alias ifconfig="echo 'did you mean ip addr?'"
 alias cdgit="cd $HOME/GithubProjects/"
 alias neofetch="fastfetch"
 alias orphans="pacman -Qdtq | wc -l"
 alias va="source .venv/bin/activate"
+alias sshnas="ssh ntsu@192.168.0.199"
+alias whichorphans="pacman -Qdtq"
+alias removeorphans="pacman -Qdtq | sudo pacman -Rns -"
+
+#function aliases
+function conf() { cd "/home/ntsu/.config/$1" }
 
 # config env vars
 export HYPRCONF="$HOME/.config/hypr/hyprland.conf"
 export ZSHCONF="$HOME/.zshrc"
 export HYPRLOCK="$HOME/.config/hypr/hyprlock.conf"
+
+# Created by `pipx` on 2024-08-08 22:05:56
+export PATH="$PATH:/home/ntsu/.local/bin"
+
+#curl -s -L http://bit.ly/10hA8iC | bash

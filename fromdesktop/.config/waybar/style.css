@@ -1,87 +1,167 @@
+/* ======================= */
+/* General Style Settings  */
+/* ======================= */
 * {
-  font-family: "Iosevka Nerd Font";
-  font-size: 13px;
-  text-shadow: 2px 2px 4px black;
-  min-height: 0;
+    /*font-family "Jet Brains Mono Nerd Font"*/
+    font-family: "Jost*";
+    font-size: 13px;
+    min-height: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
 window#waybar {
-  /* background: transparent; */
-  /* background: black; */
-  background: rgba(40, 44, 52, 0.8);
-  color: white;
-  border: 0px solid #8fd4ff;
-  border-radius: 1px;
+    background: rgba(20, 22, 25, 0);
+    color: #cdd6f4;
+    border: 1px solid rgba(143, 212, 255, 0);
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(143, 212, 255, 0.2);
 }
 
-#window {
-  font-family: "Iosevka";
+/* Default module appearance */
+label.module {
+    padding: 0px 8px;
+    margin: 0px 4px;
+    background: rgba(64, 64, 64, 0.8);
+    border-radius: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/* ================== */
+/* Workspaces Block   */
+/* ================== */
+#workspaces {
+    margin: 0px 8px;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+#workspaces button {
+    padding: 0px 2px;
+    margin: 0px 2px;
+    background: transparent;
+    color: #888;
+    transition: all 0.2s ease;
+    font-size: 8px;
+}
+
+#workspaces button:hover {
+    color: #8fd4ff;
+    border-color: #8fd4ff;
+    background: rgba(255, 255, 255, 0.03);
 }
 
 #workspaces button.active {
-  color: white;
-  border: 1px solid #8fd4ff;
-  border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
 }
 
-#tray,
-#custom-japan,
-#custom-germany,
-#custom-gpu-usage,
-#custom-pacman-updates,
-#custom-pacman-orphans,
-#temperature,
-#clock,
-#battery,
+/* ================== */
+/* Hardware Block     */
+/* ================== */
+#hardware {
+    background: rgba(
+        0,
+        0,
+        0,
+        0.6
+    ); /* Unified background for all hardware labels */
+    padding: 0px 6px;
+    margin: 4px;
+    border-radius: 6px;
+}
+
+#hardware label.module {
+    background: transparent;
+    margin: 0px 2px;
+    padding: 0px 2px;
+}
+
+/* ================== */
+/* Centermods Block   */
+/* ================== */
+
+#centermods {
+    padding: 0px 0px;
+}
+
+/* ======================== */
+/* System Status Block      */
+/* ======================== */
 #cpu,
 #memory,
-#network,
-#pulseaudio {
-  padding: 0 5px;
-  margin-right: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+#backlight {
+    padding: 0 10px;
+    margin: 4px 5px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.03);
+    transition: background 0.3s ease;
 }
 
-#temperature.critical {
-  color: #b62d66;
+/* ======================= */
+/* Audio, Clock & Battery  */
+/* ======================= */
+#clock {
+    font-weight: bold;
+    color: #8fd4ff;
 }
 
-#battery icon {
-  color: #b62d66;
+#pulseaudio.muted {
+    color: #f9e2af;
 }
 
 #battery.charging {
-  border-bottom: 1px dotted #8fd4ff;
+    color: #a6e3a1;
+    border-bottom: 1px dashed #8fd4ff;
 }
 
+#battery.warning:not(.charging) {
+    color: #f38ba8;
+    background-color: rgba(243, 139, 168, 0.1);
+    animation: blink 1.2s infinite alternate;
+}
+
+#battery.critical:not(.charging) {
+    color: #f38ba8;
+    background-color: rgba(243, 139, 168, 0.2);
+    font-weight: bold;
+    animation: blink 0.8s infinite alternate;
+}
+
+/* ===================== */
+/* Network & Temperature */
+/* ===================== */
+#network.disconnected,
+#temperature.critical {
+    color: #f38ba8;
+    font-weight: bold;
+}
+
+/* ======================= */
+/* Tray & Custom Modules   */
+/* ======================= */
+#tray,
+#custom-gpu-usage,
+#custom-pacman-updates,
+#custom-pacman-orphans,
+#custom-gamma,
+#custom-colortemp,
+#clock,
+#network,
+#pulseaudio,
+#temperature {
+    color: inherit;
+}
+
+/* =================== */
+/* Animations & Utils  */
+/* =================== */
 @keyframes blink {
-  to {
-    background-color: #8fd4ff;
-    color: black;
-  }
-}
-
-#battery.warning:not(.charging) {
-  color: white;
-  animation-name: blink;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  border-radius: 5px;
-}
-
-#battery.warning:not(.charging) {
-  color: white;
-  animation-name: blink;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  border-radius: 5px;
-}
-
-#network.disconnected {
-  color: #b62d66;
+    to {
+        background-color: #8fd4ff;
+        color: black;
+    }
 }

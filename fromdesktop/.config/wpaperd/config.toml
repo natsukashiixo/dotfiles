@@ -1,9 +1,28 @@
+# both monitors
+
+[default]
+duration = '5m'
+sorting = 'random'
+
+#[default.transition.glitch-displace]
+#transition-time = 5000
+
+[default.transition.dissolve]
+transition-time = 5000
+line-width = 0.1
+spread-clr = [1.0, 0.0, 0.0]
+hot-clr = [0.9, 0.9, 0.2]
+intensity = 1.0
+pow = 5.0
+
+# Vertical monitor
+
 [HDMI-A-1]
 path = "/home/ntsu/wallpapers/vert"
-mode = "stretch"
+mode = "center"
+
+# Main monitor
 
 [DP-3]
 path = "/home/ntsu/wallpapers/horiz"
-duration = "10m"
-sorting = "random"
 mode = "stretch"

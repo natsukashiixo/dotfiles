@@ -1,122 +1,226 @@
-[{
+[
+  {
     "layer": "top",
+    "name": "mainbar",
+    // "fixed-center": false,
     "position": "top",
-    "height": 28,
-    "margin-left": 0,
-    "margin-right": 0,
-    "margin-top": 0,
-    "margin-bottom": 5,
+    "height": 30,
+    "margin-left": 5,
+    "margin-right": 5,
+    "margin-top": 5,
+    "margin-bottom": 0,
     "output": "DP-3",
-    "modules-left": ["pulseaudio", "backlight", "custom/pacman-updates", "custom/pacman-orphans"],
-    "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["network", "temperature", "cpu", "memory", "custom/gpu-usage", "battery", "clock"],
-    "reload_style_on_change":true,
+    "modules-left": [
+      "pulseaudio",
+      "backlight",
+      "custom/pacman-updates",
+      "custom/pacman-orphans",
+    ],
+    "modules-center": ["group/centermods"],
+    "modules-right": [
+      "custom/colortemp",
+      "custom/gamma",
+      "network",
+      "group/hardware",
+      "clock",
+    ],
+    "reload_style_on_change": true,
     "hyprland/workspaces": {
-        "disable-scroll": true,
-        "disable-click": false
+      "disable-scroll": true,
+      "disable-click": false,
+      "format": "{icon}",
+      "format-icons": {
+        "1": "I",
+        "2": "II",
+        "3": "III",
+        "4": "IV",
+        "5": "V",
+        "6": "VI",
+        "7": "VII",
+        "8": "VIII",
+        "9": "IX",
+        "10": "X",
+        "11": "XI",
+        "12": "XII",
+        "13": "XIII",
+        "14": "XIV",
+        "15": "XV",
+        "16": "XVI",
+        "17": "XVII",
+        "18": "XVIII",
+        "19": "XIX",
+        "20": "XX",
+        "default": "{id}",
+      },
     },
     "tray": {
-        "spacing": 10
+      "spacing": 10,
     },
     "clock": {
-        "format": "{:%a %Y %b %d %R}"
-    },
-    "custom/japan": {
-        "format": "{}",
-        "exec": "TZ=America/Vancouver date \"+%H:%M %Z\"",
-        "interval": 30
-    },
-    "custom/germany": {
-        "format": "{}",
-        "exec": "TZ=Europe/Berlin date \"+%H:%M %Z\"",
-        "interval": 30
+      "format": "{:%a %Y %b %d %R}",
     },
     "cpu": {
-        "format": " {usage}%"
+      "format": " {usage}%",
     },
     "memory": {
-        "format": " {percentage}%"
+      "format": " {percentage}%",
     },
     "custom/gpu-usage": {
- 	 "exec": "nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits",
-  	 "format": "󰟡: {}%",
-  	 "return-type": "",
-  	 "interval": 4
+      "exec": "nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits",
+      "format": "󰍛 {}%",
+      "return-type": "",
+      "interval": 4,
     },
     "temperature": {
-        "critical-threshold": 75,
-        "format": " {temperatureC}°C"
+      "critical-threshold": 75,
+      "format": " {temperatureC}°C",
     },
     "battery": {
-        "bat": "BAT0",
-        "full-at": 95,
-        "states": {
-            "good": 95,
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{icon} {capacity}%",
-        "format-icons": [" ", " ", " ", " ", " "]
+      "bat": "BAT0",
+      "full-at": 95,
+      "states": {
+        "good": 95,
+        "warning": 30,
+        "critical": 15,
+      },
+      "format": "{icon} {capacity}%",
+      "format-icons": [" ", " ", " ", " ", " "],
     },
     "network": {
-	"format-ethernet":"   {ifname}",
-        "format-wifi": "  {essid}",
-        "format-disconnected": "⚠ Disconnected"
+      "format-ethernet": " ",
+      "format-wifi": "  {essid}",
+      "format-disconnected": "⚠ Disconnected",
     },
     "pulseaudio": {
-        "format": "{icon} {volume}%",
-        "format-muted": "",
-        "format-icons": {
-            "headphones": "",
-            "default": ["", ""]
-        },
-        "on-click": "pavucontrol"
-   },
-    "hyprland/workspaces": {
-	"format": "{name} {icon}",
-	"format-icons": {
-		"active": "", 
-		"default": ""
-                }
-  },
+      "format": "{icon} {volume}%",
+      "format-muted": "",
+      "format-icons": {
+        "headphones": "",
+        "default": ["", ""],
+      },
+      "on-click": "~/.config/waybar/scripts/pavutoggle.py",
+    },
     "backlight": {
-	"device": "amdgpu_bl0",
-	"format": "{icon} {percent}%",
-	"format-icons": [" ", " ", " "]
-  },
+      "device": "amdgpu_bl0",
+      "format": "{icon} {percent}%",
+      "format-icons": [" ", " ", " "],
+    },
     "custom/pacman-updates": {
-        "format": "󰣇 Updates: {}",
-        "exec": "checkupdates | wc -l",
-        "interval": 600
-  },
+      "format": "󰣇 Updates: {}",
+      "exec": "checkupdates | wc -l",
+      "interval": 600,
+    },
     "custom/pacman-orphans": {
-        "format": "󰣇 Orphans: {}",
-        "exec": "pacman -Qdtq | wc -l",
-        "interval": 600
-  }
-},
+      "format": "󰣇 Orphans: {}",
+      "exec": "pacman -Qdtq | wc -l",
+      "interval": 600,
+    },
+    "custom/colortemp": {
+      "format": "󰖧 {}K",
+      "on-click": "~/.config/waybar/scripts/hyprshade.py temperature 4000 toggle",
+      "on-click-right": "~/.config/waybar/scripts/hyprshade.py temperature 6300",
+      "on-scroll-up": "~/.config/waybar/scripts/hyprshade.py temperature +100",
+      "on-scroll-down": "~/.config/waybar/scripts/hyprshade.py temperature -100",
+      "exec": "~/.config/waybar/scripts/hyprshade.py temperature",
+      "exec-on-event": false,
+      "exec-if": "pidof hyprsunset",
+      "interval": "once",
+      "tooltip": false,
+      "signal": 4,
+    },
+    "custom/gamma": {
+      "format": " {}%",
+      "on-click": "~/.config/waybar/scripts/hyprshade.py gamma 70 toggle",
+      "on-click-right": "~/.config/waybar/scripts/hyprshade.py gamma 100",
+      "on-scroll-up": "~/.config/waybar/scripts/hyprshade.py gamma +10",
+      "on-scroll-down": "~/.config/waybar/scripts/hyprshade.py gamma -10",
+      "exec": "~/.config/waybar/scripts/hyprshade.py gamma",
+      "exec-on-event": false,
+      "exec-if": "pidof hyprsunset",
+      "interval": "once",
+      "tooltip": false,
+      "signal": 3,
+    },
+    "group/hardware": {
+      "orientation": "horizontal",
+      "modules": ["temperature", "cpu", "memory", "custom/gpu-usage"],
+    },
+    "group/centermods": {
+      "orientation": "horizontal",
+      "modules": ["cava", "hyprland/workspaces", "custom/fcitx-lang"],
+    },
+    "custom/fcitx-lang": {
+      "format": "{}",
+      "exec": "~/.config/waybar/scripts/getlang.py",
+      "signal": 5,
+    },
+    "cava": {
+// doesnt load it seems, maybe it can only parse .conf? "cava_config": "~/.config/cava/config",
+        "framerate": 60,
+        "autosens": 1,
+        // "sensitivity": 100,
+        "bars": 6,
+        "lower_cutoff_freq": 100,
+        "higher_cutoff_freq": 8500,
+        "method": "pulse",
+        "source": "auto",
+        "stereo": false,
+        "reverse": false,
+        "bar_delimiter": 0,
+        "monstercat": false,
+        "waves": false,
+        "noise_reduction": 0.77,
+        "input_delay": 2,
+        "format-icons": ["▁", "▂", "▃", "▅", "▆", "▇", "█" ],
+        //"format-icons":   ["⣀", "⣠", "⣤", "⣴", "⣶", "⣾", "⣿", "⠿" ],
+        //"format-icons": [" ", "🮆", "🮅", "🮄", "🮃", "🮂", "🭶", " " ],
+        "actions": {
+                   "on-click-right": "mode"
+                   }
+    },
+    // end of main monitor bar
+  },
 
-  
-{
+  // vertical monitor bar
+
+  {
     "layer": "top",
     "position": "top",
-    "height": 28,
+    "height": 30,
     "margin-left": 0,
     "margin-right": 0,
-    "margin-top": 0,
-    "margin-bottom": 5,
+    "margin-top": 5,
+    "margin-bottom": 0,
     "output": "HDMI-A-1",
     "modules-center": ["hyprland/workspaces"],
-    "reload_style_on_change":true,
+    "reload_style_on_change": true,
     "hyprland/workspaces": {
-        "disable-scroll": true,
-        "disable-click": false
+      "disable-scroll": true,
+      "disable-click": false,
+      "format": "{icon}",
+      "format-icons": {
+        "1": "I",
+        "2": "II",
+        "3": "III",
+        "4": "IV",
+        "5": "V",
+        "6": "VI",
+        "7": "VII",
+        "8": "VIII",
+        "9": "IX",
+        "10": "X",
+        "11": "XI",
+        "12": "XII",
+        "13": "XIII",
+        "14": "XIV",
+        "15": "XV",
+        "16": "XVI",
+        "17": "XVII",
+        "18": "XVIII",
+        "19": "XIX",
+        "20": "XX",
+        "default": "{id}",
+      },
     },
-    "hyprland/workspaces": {
-        "format": "{name} {icon}",
-        "format-icons": {
-                "active": "",
-                "default": ""
-                }
-  }
-}]
+  },
+]
