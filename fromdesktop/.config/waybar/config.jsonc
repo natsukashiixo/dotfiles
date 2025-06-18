@@ -21,6 +21,7 @@
       "custom/colortemp",
       "custom/gamma",
       "network",
+      "bluetooth",
       "group/hardware",
       "clock",
     ],
@@ -58,6 +59,28 @@
     },
     "clock": {
       "format": "{:%a %Y %b %d %R}",
+      "format-alt": "{:%A, %B %d, %Y (%R)}  ",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+                    "mode"          : "year",
+                    "mode-mon-col"  : 3,
+                    "weeks-pos"     : "right",
+                    "on-scroll"     : 1,
+                    "format": {
+                              "months":     "<span color='#ffead3'><b>{}</b></span>",
+                              "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+                              "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+                              "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+                              "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+                              }
+                    },
+        "actions":  {
+                    "on-click-right": "mode",
+                    "on-scroll-up": "tz_up",
+                    "on-scroll-down": "tz_down",
+                    "on-scroll-up": "shift_up",
+                    "on-scroll-down": "shift_down"
+                    },
     },
     "cpu": {
       "format": " {usage}%",
@@ -90,15 +113,19 @@
       "format-ethernet": " ",
       "format-wifi": "  {essid}",
       "format-disconnected": "⚠ Disconnected",
+      "on-click": "iwmenu -l custom --launcher-command 'rofi -dmenu -theme ~/.config/rofi/global/wifi.rasi' > /dev/null 2>&1"
     },
     "pulseaudio": {
       "format": "{icon} {volume}%",
       "format-muted": "",
       "format-icons": {
-        "headphones": "",
+        "headphone": "",
+        "alsa_output.usb-SteelSeries_Arctis_Nova_7-00.analog-stereo": "",
         "default": ["", ""],
       },
       "on-click": "~/.config/waybar/scripts/pavutoggle.py",
+      "on-click-right": "~/.config/waybar/scripts/toggle_audio.sh",
+      "on-click-middle": "easyeffects",
     },
     "backlight": {
       "device": "amdgpu_bl0",
@@ -114,6 +141,8 @@
       "format": "󰣇 Orphans: {}",
       "exec": "pacman -Qdtq | wc -l",
       "interval": 600,
+      "tooltip": true,
+      "tooltip-format": "placeholder",
     },
     "custom/colortemp": {
       "format": "󰖧 {}K",
@@ -177,6 +206,12 @@
         "actions": {
                    "on-click-right": "mode"
                    }
+    },
+    "bluetooth": {
+      "format": "",
+      "format-disabled": "󰂲",
+      "format-connected": "󰂱 {num_connections}",
+      "on-click": "bzmenu -l custom --launcher-command 'rofi -dmenu -theme ~/.config/rofi/global/bt.rasi' > /dev/null 2>&1",
     },
     // end of main monitor bar
   },
