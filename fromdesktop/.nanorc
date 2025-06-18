@@ -6,8 +6,12 @@ set autoindent
 set tabstospaces
 set tabsize 2
 
+<<<<<<< HEAD
 # colors from github repo https://github.com/scopatz/nanorc.git
 # might need to manually modify yaml file since red keys look horrible
+=======
+# colors from github repo
+>>>>>>> 8a09b8f (pre-system rebuild push)
 include /home/ntsu/.config/nanorc/patch.nanorc
 include /home/ntsu/.config/nanorc/inputrc.nanorc
 include /home/ntsu/.config/nanorc/cmake.nanorc

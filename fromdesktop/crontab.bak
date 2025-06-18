@@ -1,0 +1,2 @@
+# m h  dom mon dow   command
+0 3 * * *  rsync -avz /home/ntsu/wallpapers ntsu@192.168.0.199:/srv/raid/share/pics_backup

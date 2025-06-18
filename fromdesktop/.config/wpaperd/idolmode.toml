@@ -18,11 +18,11 @@ pow = 5.0
 # Vertical monitor
 
 [HDMI-A-1]
-path = "/home/ntsu/wallpapers/vtubers/vert"
+path = "/home/ntsu/wallpapers/imas/vert"
 mode = "center"
 
 # Main monitor
 
 [DP-3]
-path = "/home/ntsu/wallpapers/vtubers/horiz"
+path = "/home/ntsu/wallpapers/imas/horiz"
 mode = "stretch"

@@ -94,6 +94,8 @@ source $ZSH/oh-my-zsh.sh
 #   export EDITOR='mvim'
 # fi
 
+export EDITOR='nano'
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -115,11 +117,19 @@ alias lsa='lsd -a'
 alias ifconfig="echo 'did you mean ip addr?'"
 alias cdgit="cd $HOME/GithubProjects/"
 alias neofetch="fastfetch"
+alias nf="fastfetch"
 alias orphans="pacman -Qdtq | wc -l"
 alias va="source .venv/bin/activate"
 alias sshnas="ssh ntsu@192.168.0.199"
 alias whichorphans="pacman -Qdtq"
 alias removeorphans="pacman -Qdtq | sudo pacman -Rns -"
+alias listaur='pacman -Qqm'
+alias listpac='pacman -Qqe | grep -vx "$(pacman -Qqm)"'
+
+#lulz aliases
+alias idolmode="killall wpaperd && wpaperd -c /home/ntsu/.config/wpaperd/idolmode.toml -d"
+alias vtubermode="killall wpaperd && wpaperd -c /home/ntsu/.config/wpaperd/vtubermode.toml -d"
+alias restorewpaperd="killall wpaperd && wpaperd -c /home/ntsu/.config/wpaperd/config.toml -d"
 
 #function aliases
 function conf() { cd "/home/ntsu/.config/$1" }
